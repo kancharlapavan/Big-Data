@@ -87,6 +87,8 @@ highest_sales = spark.sql(""" SELECT MAX(total_sales)
                               """)
 highest_sales.show()
 
+# gives highest sales data
+
 
 # In[ ]:
 
